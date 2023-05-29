@@ -19,4 +19,9 @@ int main(void)
             j--;
         }
     }
+
+    for (int i = 0; i < ARRAY_LENGTH; i++)
+    {
+        printf ("%i ", unsorted_array[i]);
+    }
 }
